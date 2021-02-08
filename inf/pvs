@@ -1,0 +1,12 @@
+
+# Missing dependency
+VSCode-PVS failed to start: a required dependency could not be detected:
+
+```
+VSCode-PVS currently runs only under Linux or MacOSX.
+Please use a virtual machine to run VSCode-PVS under win32.
+```
+
+If the above action does not resolve the problem, please restart Visual Studio Code and make sure you are using the latest version of VSCode-PVS.
+
+If the problem persists, please report the error on [github](https://github.com/nasa/vscode-pvs/issues) or on the [PVS group](https://groups.google.com/g/pvs-group), we will look into it.
