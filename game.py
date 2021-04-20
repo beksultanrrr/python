@@ -50,7 +50,7 @@ def main():
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                run = False
+                running = False
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 button = True
 
