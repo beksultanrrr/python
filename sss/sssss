@@ -1,0 +1,1089 @@
+
+insert into production.types values (12,'food products','meat','horse');
+insert into production.types values (123,'non-food products');
+insert into production.types values (1234,'medical products');
+
+insert into production.brands values (1,'Cola');
+insert into production.brands values (2,'Soda');
+insert into production.brands values (3,'Nike');
+insert into production.brands values (4,'Adidas');
+insert into production.brands values (5,'President');
+insert into production.brands values (6,'Lenor');
+insert into production.brands values (7,'Comet');
+insert into production.brands values (8,'AOS');
+insert into production.brands values (9,'Fary');
+insert into production.brands values (11,'Frito-Lay');
+insert into production.brands values (12,'Nestle');
+insert into production.brands values (13,'Jacobs');
+insert into production.brands values (14, 'Dry Mix')
+insert into production.brands values (15, 'Havarti, Roasted Garlic')
+insert into production.brands values (16, 'Jafflin Bourgongone')
+insert into production.brands values (17, 'Red Thai')
+insert into production.brands values (18, 'Guy Sage Touraine')
+insert into production.brands values (19, 'Prime Cut')
+insert into production.brands values (20, 'Oolong')
+insert into production.brands values (21, 'Slab Bacon')
+insert into production.brands values (22, 'Prime Cut')
+insert into production.brands values (23, 'Campbells Chicken')
+insert into production.brands values (24, 'Chili Powder')
+insert into production.brands values (25, 'Sweet, Cinzano')
+insert into production.brands values (26, 'Potmums')
+insert into production.brands values (27, 'Havarti')
+insert into production.brands values (28, 'Cognac')
+insert into production.brands values (29, 'Orange')
+insert into production.brands values (30, 'Bran And Maple ')
+insert into production.brands values (31, 'Green')
+insert into production.brands values (32, 'Primerba')
+insert into production.brands values (33, 'Guy Sage Touraine')
+insert into production.brands values (34, 'Sorrano')
+insert into production.brands values (35, 'Loin')
+insert into production.brands values (36, 'Cognac')
+insert into production.brands values (38, 'Comte')
+insert into production.brands values (39, 'Oolong')
+insert into production.brands values (40, 'Pine Sol')
+insert into production.brands values (41, ' Gouda')
+insert into production.brands values (42, 'California Mix')
+insert into production.brands values (44,'Pepsi');
+
+insert into production.products values (1,'Sauce - Black Current',14,12);
+insert into production.products values(2,'Cheese',15,12);
+insert into production.products values(3,'Cookie ', 16,12);
+insert into production.products values(4,'Ostrich ',17,12);
+insert into production.products values(5,'Scallops - Live In Shell',17,12);
+insert into production.products values(6,'Oneshot Automatic Soap System',12,12);
+insert into production.products values (7,'V8 Splash Strawberry Kiwi',17,12);
+insert into production.products values(8,'Soup Campbells Beef With Veg',16,12);
+insert into production.products values(9,'Wine - Red, Wolf Blass, Yellow',15,12 );
+insert into production.products values(10,'Jam - Blackberry, 20 Ml Jar',14,12);
+insert into production.products values(11,'Cheese',21,12);
+insert into production.products values(12,'Wine - Jafflin Bourgongone',18,12);
+insert into production.products values(13,'Cheese - Cheddarsliced',21,12);
+insert into production.products values (14,'Bread - Bagels, Mini',22,12);
+insert into production.products values(15,'Pepper - Red Thai', 19,12);
+insert into production.products values(16,'Pastry - Banana Muffin - Mini',17,12);
+insert into production.products values (17,'Watercress',19,12);
+insert into production.products values (18,'Wine - Guy Sage Touraine', 23,12);
+insert into production.products values (19,'Beef - Shank',25,12 );
+insert into production.products values (20,'Veal - Slab Bacon', 26,12);
+insert into production.products values (21,'Muffin - Mix - Bran And Maple 15l',27,12);
+insert into production.products values (22,'Wine - Penfolds Koonuga Hill',28,12);
+insert into production.products values (23,'Cookie - Dough Variety',29,12);
+insert into production.products values (24,'Trout - Smoked',29,12);
+insert into production.products values (25,'Tea Leaves - Oolong',28,12);
+insert into production.products values (26,'Pepper - Chili Powder',30,12);
+insert into production.products values (27,'Bread Base - Gold Formel',26,12);
+insert into production.products values (28,'Wiberg Super Cure', 12,12);
+insert into production.products values (29,'Sprouts - Corn',31,12);
+insert into production.products values (30,'Pancetta', 21,12);
+insert into production.products values (31,'Water - Tonic',29,12);
+insert into production.products values (32,'Yoghurt Tubes', 31,12);
+insert into production.products values (33,'Beef - Sushi Flat Iron Steak',31,12);
+insert into production.products values (34,'Cookie Dough - Double',27,12);
+insert into production.products values (35,'Seedlings - Buckwheat, Organic',25,12);
+insert into production.products values (37,'Alize Sunset', 24,12);
+insert into production.products values (38,'Rum - Dark, Bacardi, Black',23,12);
+insert into production.products values (39,'Cabbage - Green',26,12);
+insert into production.products values (40,'Beer - Guiness',28,12);
+insert into production.products values (41,'Salmon - Smoked, Sliced',29,12);
+insert into production.products values (42,'Syrup - Golden, Lyles',21,12);
+insert into production.products values (43,'Pail - 15l White, With Handle', 20,12);
+insert into production.products values (44,'Pail With Metal Handle 16l White',14,12);
+insert into production.products values (45,'Nantuket Peach Orange',1,12);
+insert into production.products values (46,'Chocolate - Pistoles, Lactee, Milk',14,12);
+insert into production.products values (47,'Garlic - Primerba, Paste', 15,12);
+insert into production.products values (48,'Pineapple - Canned, Rings', 31,12);
+insert into production.products values (49,'Wine - Shiraz South Eastern',30,12);
+insert into production.products values (50,'Crab - Back Fin Meat, Canned',15,12);
+insert into production.products values (51,'Soup - Campbells Chicken',31,12);
+insert into production.products values (52,'Carroway Seed',12,12);
+insert into production.products values (53,'Bandage - Flexible Neon',31,12);
+insert into production.products values (54,'Sugar Thermometer', 11,12);
+insert into production.products values (55,'Vermouth - Sweet, Cinzano', 23,12);
+insert into production.products values (56,'Compound - Passion Fruit',22,12);
+insert into production.products values (57,'Alize Gold Passion',30,12);
+insert into production.products values (58,'Beer - Labatt Blue',31,12);
+insert into production.products values (59,'Longos - Chicken Wings',23,12);
+insert into production.products values (60,'Flower - Potmums',25,12);
+insert into production.products values (61,'Pepper - Sorrano', 27,12);
+insert into production.products values (62,'Sauce - Caesar Dressing',26,12);
+insert into production.products values (63,'Red Snapper - Fresh, Whole',29,12);
+insert into production.products values (64,'Muskox - French Rack', 30,12);
+insert into production.products values (65,'Apple - Northern Spy',13,12);
+insert into production.products values (66,'Bread - Pita, Mini',23,12);
+insert into production.products values (67,'Extract - Raspberry',12,123);
+insert into production.products values (68,'Carroway Seed',13,123);
+insert into production.products values (69,'Strawberries - California',14,123);
+insert into production.products values (70,'Veal - Loin',23,123);
+insert into production.products values (71,'Veal - Heart',12,123);
+insert into production.products values (72,'Turkey - Breast, Double', 23,123);
+insert into production.products values (73,'Wine - Magnotta, Merlot Sr Vqa', 31,123);
+insert into production.products values (74,'Cheese - Comte',20,12);
+insert into production.products values (75,'Sausage - Chorizo',21,12);
+insert into production.products values (76,'Veal - Leg, Provimi - 50 Lb Max', 22,12);
+insert into production.products values (77,'Veal - Nuckle',11,12);
+insert into production.products values (78,'Beer - Maudite',11,12);
+insert into production.products values (79,'Kahlua', 23,12);
+insert into production.products values (80,'Rabbit - Saddles',22,12);
+insert into production.products values (81,'Dc Hikiage Hira Huba',33,12);
+insert into production.products values (82,'Country Roll',41,12);
+insert into production.products values (83,'Juice - Orange',36,123);
+insert into production.products values (84,'Prunes - Pitted',35,12);
+insert into production.products values (85,'Cheese - Gouda',35,12);
+insert into production.products values (86,'Fib N9 - Prague Powder',34,12);
+insert into production.products values (87,'Ecolab - Medallion', 36,12);
+insert into production.products values (88,'Bread - Pullman, Sliced',33,12);
+insert into production.products values (89,'Wine - Red, Cabernet Sauvignon',32,12);
+insert into production.products values (90,'Squash - Butternut',38,12);
+insert into production.products values (91,'Lettuce - California Mix',38,12);
+insert into production.products values (92,'Beef - Cow Feet Split',39,12);
+insert into production.products values (93,'Soup - Campbells, Spinach Crm', 38,12);
+insert into production.products values (94,'Sour Puss Sour Apple', 31,12);
+insert into production.products values (95,'Silicone Paper 16.5x24', 20,123);
+insert into production.products values (96,'Compound - Orange', 30,12);
+insert into production.products values (98,'Cleaner - Pine Sol',36,123);
+insert into production.products values (99,'Pate - Cognac',38,123);
+insert into production.products values (100,'Cheese - Cheddar, Mild',40,12);
+insert into production.products values (101,'Blouse / Shirt / Sweater',41,123);
+insert into production.products values (102,'Sauce - Black Current, Dry Mix',41,123);
+insert into production.products values (103,'Cheese - Havarti, Roasted Garlic',31,123);
+insert into production.products values (104,'Cookie Trail Mix',35,12);
+insert into production.products values (105,'Ostrich - Prime Cut',25,12);
+insert into production.products values (106,'Scallops - Live In Shell',12,123);
+insert into production.products values (107,'Oneshot Automatic Soap System',33,12);
+insert into production.products values (108,'V8 Splash Strawberry Kiwi',27,123);
+insert into production.products values (109,'Soup Campbells Beef With Veg',30,123);
+insert into production.products values (110,'Wine - Red, Wolf Blass, Yellow', 34,12);
+insert into production.products values (111,'Jam - Blackberry, 20 Ml Jar', 36,12);
+insert into production.products values (112,'Cheese - Havarti, Salsa',15,123);
+insert into production.products values (113,'Wine - Jafflin Bourgongone', 41,123);
+insert into production.products values (114,'Cheese - Cheddarsliced',12,12);
+insert into production.products values (115,'Bread - Bagels, Mini',35,12);
+insert into production.products values (116,'Pepper - Red Thai',12,123);
+insert into production.products values (117,'Pastry - Banana Muffin - Mini',38,123);
+insert into production.products values (118,'Watercress',41,12);
+insert into production.products values (119,'Wine - Guy Sage Touraine',34,123);
+insert into production.products values (120,'Beef - Shank',33,123);
+insert into production.products values (121,'Wine - Shiraz South Eastern',39,12);
+insert into production.products values (122,'Cola',1,12);
+insert into production.products values (123,'Pepsi',44,12);
+insert into production.products values (124,'Milk',44,12);
+
+
+insert into  sales.customers (customer_id, full_name, city) values (1, 'Brad Van den Bosch', null);
+insert into  sales.customers (customer_id, full_name, city) values (2, 'Warden Haborn', 'Vizal San Pablo');
+insert into  sales.customers (customer_id, full_name, city) values (3, 'Wash Jaques', 'Sitampiky');
+insert into  sales.customers (customer_id, full_name, city) values (4, 'Bruis Foucard', 'Novogornyy');
+insert into  sales.customers (customer_id, full_name, city) values (5, 'Verney Perkis', 'Cipunglu');
+insert into  sales.customers (customer_id, full_name, city) values (6, 'Esra Champken', 'Martapura');
+insert into  sales.customers (customer_id, full_name, city) values (7, 'Birk Laver', null);
+insert into  sales.customers (customer_id, full_name, city) values (8, 'Gale Lurriman', 'Daloa');
+insert into  sales.customers (customer_id, full_name, city) values (9, 'Kellyann Huby', null);
+insert into  sales.customers (customer_id, full_name, city) values (10, 'Hetty Firbank', null);
+insert into  sales.customers (customer_id, full_name, city) values (11, 'Aurlie Grocott', null);
+insert into  sales.customers (customer_id, full_name, city) values (12, 'Asa Shellsheere', 'Dongzhou');
+insert into  sales.customers (customer_id, full_name, city) values (13, 'Lorenza Vasentsov', 'Thị Trấn Mường Khương');
+insert into  sales.customers (customer_id, full_name, city) values (14, 'Fowler Pennone', 'Petauke');
+insert into  sales.customers (customer_id, full_name, city) values (15, 'Galen Cradock', null);
+insert into  sales.customers (customer_id, full_name, city) values (16, 'Walden Pedgrift', null);
+insert into  sales.customers (customer_id, full_name, city) values (17, 'Donnamarie Ainsley', 'London');
+insert into  sales.customers (customer_id, full_name, city) values (18, 'Lionel Kenealy', 'Bužim');
+insert into  sales.customers (customer_id, full_name, city) values (19, 'Orel Seamarke', null);
+insert into  sales.customers (customer_id, full_name, city) values (20, 'Schuyler MacCall', null);
+insert into  sales.customers (customer_id, full_name, city) values (21, 'Nealson Lilleycrop', null);
+insert into  sales.customers (customer_id, full_name, city) values (22, 'Auria Leindecker', 'Nova Cruz');
+insert into  sales.customers (customer_id, full_name, city) values (23, 'Nicky Luttgert', 'Kambatatamakawu');
+insert into  sales.customers (customer_id, full_name, city) values (24, 'Ardella Locke', 'Koltushi');
+insert into  sales.customers (customer_id, full_name, city) values (25, 'Fernandina Agiolfinger', null);
+insert into  sales.customers (customer_id, full_name, city) values (26, 'Linette Samett', 'Waipawa');
+insert into  sales.customers (customer_id, full_name, city) values (27, 'Eugenie Aldhouse', null);
+insert into  sales.customers (customer_id, full_name, city) values (28, 'Francklyn Ludlem', 'Huanggangshan');
+insert into  sales.customers (customer_id, full_name, city) values (29, 'Nolly Sylvester', 'Jiangkouxu');
+insert into  sales.customers (customer_id, full_name, city) values (30, 'Elnore Crawforth', null);
+insert into  sales.customers (customer_id, full_name, city) values (31, 'Leopold Bilbey', 'Södertälje');
+insert into  sales.customers (customer_id, full_name, city) values (32, 'Wilton Posner', 'Casal da Serra');
+insert into  sales.customers (customer_id, full_name, city) values (33, 'Jorge Cuvley', null);
+insert into  sales.customers (customer_id, full_name, city) values (34, 'Corrina Piggens', 'Kanghe');
+insert into  sales.customers (customer_id, full_name, city) values (35, 'Paulita Kissack', 'Lopatyn');
+insert into  sales.customers (customer_id, full_name, city) values (36, 'Milka Spraging', 'Vale de Vila');
+insert into  sales.customers (customer_id, full_name, city) values (37, 'Oralle Sames', 'Elassóna');
+insert into  sales.customers (customer_id, full_name, city) values (38, 'Andre Haycock', 'Frederico Westphalen');
+insert into  sales.customers (customer_id, full_name, city) values (39, 'Emlyn Ohrt', 'Yuannan');
+insert into  sales.customers (customer_id, full_name, city) values (40, 'Federico Draye', 'Chengdong');
+insert into  sales.customers (customer_id, full_name, city) values (41, 'Barrett Grafton-Herbert', 'Jingyu');
+insert into  sales.customers (customer_id, full_name, city) values (42, 'Paulo Scrowson', 'Huantuo');
+insert into  sales.customers (customer_id, full_name, city) values (43, 'Gayle Bygrove', 'Volochys’k');
+insert into  sales.customers (customer_id, full_name, city) values (44, 'Marcellus Nettle', null);
+insert into  sales.customers (customer_id, full_name, city) values (45, 'Mellie Nussey', null);
+insert into  sales.customers (customer_id, full_name, city) values (46, 'Karrah Timewell', 'Zhaotong');
+insert into  sales.customers (customer_id, full_name, city) values (47, 'Allissa Brandsma', 'Kloulklubed');
+insert into  sales.customers (customer_id, full_name, city) values (48, 'Philis Clohisey', 'Hemudu');
+insert into  sales.customers (customer_id, full_name, city) values (49, 'Bent Sommerlie', null);
+insert into  sales.customers (customer_id, full_name, city) values (50, 'Suzi Cleworth', null);
+insert into  sales.customers (customer_id, full_name, city) values (51, 'Ezequiel Wallbutton', 'Jalālpur');
+insert into  sales.customers (customer_id, full_name, city) values (52, 'Rawley Wapol', 'Pulap');
+insert into  sales.customers (customer_id, full_name, city) values (53, 'Jamey Mayo', 'Sollebrunn');
+insert into  sales.customers (customer_id, full_name, city) values (54, 'Reggie Brawson', null);
+insert into  sales.customers (customer_id, full_name, city) values (55, 'Stillmann Lakeland', null);
+insert into  sales.customers (customer_id, full_name, city) values (56, 'Royall Tumelty', 'Majan');
+insert into  sales.customers (customer_id, full_name, city) values (57, 'Venita MacCrachen', 'Faaa');
+insert into  sales.customers (customer_id, full_name, city) values (58, 'Spense Farrar', 'Klemunan');
+insert into  sales.customers (customer_id, full_name, city) values (59, 'Arvin Velez', null);
+insert into  sales.customers (customer_id, full_name, city) values (60, 'Kimbell Blagden', null);
+insert into  sales.customers (customer_id, full_name, city) values (61, 'Lorilyn O''Donoghue', 'Pingshan');
+insert into  sales.customers (customer_id, full_name, city) values (62, 'Dillon August', 'Bitkine');
+insert into  sales.customers (customer_id, full_name, city) values (63, 'Elden Djekic', 'Gyeongsan-si');
+insert into  sales.customers (customer_id, full_name, city) values (64, 'Mehetabel Treadaway', 'San Roque');
+insert into  sales.customers (customer_id, full_name, city) values (65, 'Hertha Findlow', 'Salcedo');
+insert into  sales.customers (customer_id, full_name, city) values (66, 'Dannye McArt', 'Lutian');
+insert into  sales.customers (customer_id, full_name, city) values (67, 'Markos Longstreeth', 'Altenberg bei Linz');
+insert into  sales.customers (customer_id, full_name, city) values (68, 'Maegan Corp', null);
+insert into  sales.customers (customer_id, full_name, city) values (69, 'Shawnee Noades', null);
+insert into  sales.customers (customer_id, full_name, city) values (70, 'Alexa Revett', 'Santa Bárbara');
+insert into  sales.customers (customer_id, full_name, city) values (71, 'Mikel Stroyan', 'Miānwāli');
+insert into  sales.customers (customer_id, full_name, city) values (72, 'Marybelle Snawden', 'Colorado Springs');
+insert into  sales.customers (customer_id, full_name, city) values (73, 'Darby Grishukhin', 'Várzea');
+insert into  sales.customers (customer_id, full_name, city) values (74, 'Andres Falcus', null);
+insert into  sales.customers (customer_id, full_name, city) values (75, 'Fredek Clementet', null);
+insert into  sales.customers (customer_id, full_name, city) values (76, 'Noak Spoward', 'Chigan');
+insert into  sales.customers (customer_id, full_name, city) values (77, 'Kienan Lawles', 'Sanzhang');
+insert into  sales.customers (customer_id, full_name, city) values (78, 'Chickie Allworthy', 'Osias');
+insert into  sales.customers (customer_id, full_name, city) values (79, 'Raphael Eddow', 'Granada');
+insert into  sales.customers (customer_id, full_name, city) values (80, 'Agna Hynd', 'Souto');
+insert into  sales.customers (customer_id, full_name, city) values (81, 'Kendrick Ambroix', 'Lianxia');
+insert into  sales.customers (customer_id, full_name, city) values (82, 'Brewster Savatier', 'Cergy-Pontoise');
+insert into  sales.customers (customer_id, full_name, city) values (83, 'Cristabel Flude', 'Melati');
+insert into  sales.customers (customer_id, full_name, city) values (84, 'Arlen Burgen', 'Cikandang');
+insert into  sales.customers (customer_id, full_name, city) values (85, 'Daria Thoresby', null);
+insert into  sales.customers (customer_id, full_name, city) values (86, 'Leroi Crippes', null);
+insert into  sales.customers (customer_id, full_name, city) values (87, 'Gerladina Davers', 'Touba');
+insert into  sales.customers (customer_id, full_name, city) values (88, 'Lynett Austing', 'Carlos Casares');
+insert into  sales.customers (customer_id, full_name, city) values (89, 'Stearn Hawkin', null);
+insert into  sales.customers (customer_id, full_name, city) values (90, 'Nerte Perrinchief', null);
+insert into  sales.customers (customer_id, full_name, city) values (91, 'Kellia Archard', 'Hoboksar');
+insert into  sales.customers (customer_id, full_name, city) values (92, 'Casey Gummer', 'Pyu');
+insert into  sales.customers (customer_id, full_name, city) values (93, 'Leonard Bern', null);
+insert into  sales.customers (customer_id, full_name, city) values (94, 'Juliana Josefsson', 'Baiyang');
+insert into  sales.customers (customer_id, full_name, city) values (95, 'D''arcy Middler', 'Ancenis');
+insert into  sales.customers (customer_id, full_name, city) values (96, 'Cherin Porrett', null);
+insert into  sales.customers (customer_id, full_name, city) values (97, 'Faith Hutcheon', 'Debre Mark’os');
+insert into  sales.customers (customer_id, full_name, city) values (98, 'Rodge Laxe', null);
+insert into  sales.customers (customer_id, full_name, city) values (99, 'Victoria Allott', 'Lions Bay');
+insert into  sales.customers (customer_id, full_name, city) values (100, 'Brendan Coathup', null);
+
+
+insert into sales.employees (employee_id, full_name, phone, email) values ('9f24:48f3:43ce:fa69:db9a:cabb:6d63:c385/59', 'Cloe Mc Faul', '146-719-5378', 'cmc0@nps.gov');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5eaa:4076:ca9f:27ac:90d:7f0:c292:c46c/102', 'Michaeline Hyndson', '397-413-5630', 'mhyndson1@indiegogo.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('c2a6:83b3:21da:2070:46e7:4ca:9f3e:6c6e/31', 'Dawna Gainforth', '119-148-8276', 'dgainforth2@friendfeed.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('1528:4747:9894:4ba9:47d6:a3e1:4ba9:b549/86', 'Garwood Corton', '486-621-5005', 'gcorton3@washingtonpost.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('7ddf:ce80:2baa:d244:3bcb:3177:6c24:6034/25', 'Julie Brewood', '505-660-3652', 'jbrewood4@cdbaby.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('a91b:7889:6660:6df1:4a91:1648:9c4f:8a8e/78', 'Tildie Featherstonhaugh', '145-741-3537', 'tfeatherstonhaugh5@house.gov');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b008:1dae:4185:3bd5:ad92:24a0:644f:ed4a/104', 'Findlay Reddington', '800-716-6799', 'freddington6@bluehost.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b9d1:f13:a1cb:6481:9dcd:d538:df48:39e3/95', 'Hedvig Vosper', '378-488-0320', 'hvosper7@si.edu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('7d9b:e0f3:8324:553a:5f6:49f9:6737:d02f/84', 'El Thrower', '868-883-5630', 'ethrower8@google.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('31d8:e071:606c:26d:df37:fb45:65f5:3def/104', 'Sollie Casseldine', '296-535-9476', 'scasseldine9@mac.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('f68:156:c1b9:5393:5d8:17af:cc42:2a23/91', 'Shelley Pipping', '330-370-5844', 'spippinga@live.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('3355:3f2c:1fd8:1ef1:24bd:3f22:7064:6637/98', 'Gavrielle Kuzemka', '840-949-8982', 'gkuzemkab@imageshack.us');
+insert into sales.employees (employee_id, full_name, phone, email) values ('db9c:889b:f2b0:d14e:f063:960a:c94c:a147/85', 'Sigmund Shiers', '706-824-3676', 'sshiersc@nationalgeographic.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('90d6:dfa8:f7ac:cf36:6b15:bd3d:dc7e:de83/88', 'Elane Stapylton', '192-325-5807', 'estapyltond@sciencedaily.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('1672:ab7e:45e9:4c2d:f30e:192:5912:ad28/110', 'Bella Mashro', '490-452-8281', 'bmashroe@de.vu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('9cab:e05e:7a19:bf37:856e:c4e5:521:1b67/27', 'Web Tythacott', '238-979-1568', 'wtythacottf@answers.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('3416:dc87:7459:8d27:1b7:1879:916b:5e1/43', 'Leon Rosell', '986-995-4829', 'lrosellg@so-net.ne.jp');
+insert into sales.employees (employee_id, full_name, phone, email) values ('357e:acd3:8cc9:922b:2888:dfb7:1f9c:662c/124', 'Christophorus MacClinton', '231-740-7173', 'cmacclintonh@oakley.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('e938:2bdd:ed01:aa17:73ec:b2e5:e017:ed8b/52', 'Philippa Kesten', '493-321-7851', 'pkesteni@addtoany.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b0a0:ff61:9d8e:1271:fa28:8ea0:1804:d1a3/26', 'Quintilla Schoular', '868-189-4322', 'qschoularj@google.co.uk');
+insert into sales.employees (employee_id, full_name, phone, email) values ('7da6:f935:bf1e:1aa3:423a:78bc:b116:90e3/115', 'Brigitta Behagg', '682-646-8175', 'bbehaggk@devhub.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('61db:3217:c30d:2a88:fe16:fd0:24cb:63ad/67', 'Arel Klimaszewski', '654-949-8163', 'aklimaszewskil@canalblog.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('7eb6:3c72:f27c:16b2:ab71:9088:8aab:f240/92', 'Levon Simes', '857-352-4476', 'lsimesm@soup.io');
+insert into sales.employees (employee_id, full_name, phone, email) values ('528:611b:d48c:7e7:b48f:e2cb:9920:a725/118', 'Pamella Bolus', '292-411-7914', 'pbolusn@technorati.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('72db:d4f2:d872:cfec:a357:2af6:e243:5cbd/24', 'Wiley Andrys', '560-671-1589', 'wandryso@globo.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('8f97:3eba:fed1:4ed2:baa:635c:3a4a:ebe4/69', 'Niccolo Hixley', '395-540-9620', 'nhixleyp@princeton.edu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('1a91:9be0:500f:91e2:7948:9b28:4f7f:3c8/63', 'Rosa Stormouth', '679-524-8282', 'rstormouthq@jalbum.net');
+insert into sales.employees (employee_id, full_name, phone, email) values ('ccd0:5cc0:7906:ccf4:e224:5eb6:d4f1:d22a/77', 'Benny Gameson', '801-115-3054', 'bgamesonr@devhub.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('46b0:d0fb:c09e:b11c:526a:1367:dd33:c179/79', 'Birgitta Flaonier', '875-997-1414', 'bflaoniers@lulu.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('cd10:30dc:886f:2589:ff39:7935:171b:a9e/3', 'Humberto Rubke', '950-466-1723', 'hrubket@drupal.org');
+insert into sales.employees (employee_id, full_name, phone, email) values ('6a46:e1b4:9a39:d64e:238d:63c0:b40e:25dc/66', 'Hermina Gaiter', '299-402-5667', 'hgaiteru@tmall.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('607d:135e:38a6:51ca:3ed7:c894:ce7f:adc/3', 'Torin Bickerdike', '311-198-2242', 'tbickerdikev@tripadvisor.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5471:98ed:8115:d18e:393c:179:ac18:52e5/87', 'Inga Caesman', '856-755-4127', 'icaesmanw@taobao.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('1fff:5162:7110:9ea0:fa8b:1e8b:98c9:beeb/73', 'Ruby Standing', '656-688-3852', 'rstandingx@moonfruit.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('d6b8:f1f3:6762:a5e:b231:32c4:873e:2af2/108', 'Jodi Haysham', '557-385-2404', 'jhayshamy@admin.ch');
+insert into sales.employees (employee_id, full_name, phone, email) values ('a14:5b0:45ff:6f89:a376:77d6:f4c1:6970/67', 'Melody Lubbock', '909-663-4054', 'mlubbockz@nhs.uk');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b442:d8bd:9428:3d12:4589:66c4:e75a:65fa/33', 'Marcellus McArte', '573-498-4888', 'mmcarte10@china.com.cn');
+insert into sales.employees (employee_id, full_name, phone, email) values ('179f:90a9:c605:3dc5:a79c:13e7:496f:ac96/5', 'Hilly Shakesbye', '389-647-8783', 'hshakesbye11@zdnet.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('f73:2de3:c311:5279:a371:e7c0:9898:d7a7/8', 'Mattias Dat', '346-367-9802', 'mdat12@godaddy.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('3d3a:ca3c:5527:7637:a891:7b9b:7ba5:4e46/55', 'Maggee Torre', '381-715-4749', 'mtorre13@nifty.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('ef50:2366:4087:8b05:cb1d:bd4:c3e2:c671/98', 'Delaney Shelvey', '895-378-7151', 'dshelvey14@unblog.fr');
+insert into sales.employees (employee_id, full_name, phone, email) values ('6e94:de9b:71cb:a7cd:dd5:1753:920c:e318/87', 'Hirsch Kulver', '315-168-3708', 'hkulver15@shareasale.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('c2ed:18da:d731:60d:37:ceaf:c5da:310/20', 'Eleonore Kerss', '254-162-0222', 'ekerss16@ca.gov');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5a05:63e5:ac57:7aa8:de08:35eb:bc19:3815/28', 'Kiersten McGarvey', '218-113-7770', 'kmcgarvey17@eepurl.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('9cd3:966d:1f08:3ab0:f2f4:dd4b:8cb1:4f17/23', 'Devina Maber', '705-205-6598', 'dmaber18@yolasite.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('48e3:8f97:74f5:60fb:538b:2c9c:469b:48fd/94', 'Franni Pykerman', '174-286-2459', 'fpykerman19@disqus.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('803e:3a5d:a6b8:24be:441d:9052:4c78:5e22/98', 'Calley Dignan', '118-861-6362', 'cdignan1a@myspace.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b645:d531:3840:62f8:d628:c567:2b53:4bab/18', 'Stefa Jouannin', '786-205-5228', 'sjouannin1b@cmu.edu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('313:3306:c443:e316:5868:ca0c:ca9:d4b/13', 'Javier Gorden', '101-940-4987', 'jgorden1c@ning.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('f1b6:5ce0:ecae:c910:8765:c350:1921:7dc3/80', 'Ansell Nolte', '412-855-6098', 'anolte1d@nifty.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('9d8d:ab02:a1df:5d8d:3d6:6065:4f6f:4661/17', 'Malanie Bealing', '266-797-3532', 'mbealing1e@sohu.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5ae0:e4f8:2f84:b1f0:192e:30c0:1284:456a/98', 'Philip Sharpless', '274-262-7490', 'psharpless1f@utexas.edu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('52fb:1e1c:d199:6dc0:b118:68b1:534c:7a66/17', 'Natalie Checcucci', '832-686-5632', 'ncheccucci1g@google.de');
+insert into sales.employees (employee_id, full_name, phone, email) values ('2d94:c767:6692:bbd4:5519:4eb4:1ca5:7526/58', 'Courtnay Jeffery', '289-624-5701', 'cjeffery1h@hibu.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('4a6b:f342:b0ed:5075:c8dd:ad8b:c11b:a460/117', 'Kissee Percy', '352-332-6736', 'kpercy1i@yandex.ru');
+insert into sales.employees (employee_id, full_name, phone, email) values ('ae82:4ab9:f3fc:44d9:63ed:6e7b:2a7:d532/89', 'Cassandry Clowney', '323-117-4311', 'cclowney1j@amazonaws.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('aaa:3477:db31:9dbb:4b24:ed6:8e20:77f0/108', 'George Achromov', '407-117-2279', 'gachromov1k@chron.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('bb57:53a2:be0d:df0f:4933:cf8b:7589:ee84/55', 'Glennis Clemas', '283-263-9618', 'gclemas1l@vk.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('2e0c:6e9e:d20f:69d4:965b:37ef:bc85:fb32/103', 'Ailbert Benoy', '136-552-3361', 'abenoy1m@epa.gov');
+insert into sales.employees (employee_id, full_name, phone, email) values ('1b48:3c65:292e:cf84:bb46:3b11:67e8:e497/91', 'Waldemar Wareing', '374-393-8125', 'wwareing1n@netlog.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('d9ed:9615:af39:69c5:9b74:68a4:f723:4ba3/116', 'Cole Bockman', '488-272-6803', 'cbockman1o@bloomberg.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b9a3:303:9ce2:a425:2534:398a:4b45:f4d6/111', 'Nat Grellis', '939-363-7083', 'ngrellis1p@ox.ac.uk');
+insert into sales.employees (employee_id, full_name, phone, email) values ('c565:66ae:458e:f66d:f038:bf90:22ec:7fc7/73', 'Kacie Pennazzi', '169-419-3379', 'kpennazzi1q@apple.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5bd7:69:d856:e9f6:7b1:1265:325a:689/44', 'Adi Ruffles', '938-307-4326', 'aruffles1r@mtv.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('6595:f2a5:ff8c:f79:4222:23b5:e8cb:562e/110', 'Gelya Gouldthorpe', '261-857-9066', 'ggouldthorpe1s@washingtonpost.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('ecfb:a119:edeb:9572:71ab:5a1d:2a91:1d6e/57', 'Alain Robottom', '190-400-5416', 'arobottom1t@mail.ru');
+insert into sales.employees (employee_id, full_name, phone, email) values ('4203:ae83:d011:c0dc:b495:4eef:8024:48a4/78', 'Annabella Mapholm', '323-321-7405', 'amapholm1u@fc2.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5640:fc4f:6b8f:75d4:7ae4:dd6c:7a0f:3c21/24', 'Egor Colyer', '340-761-6697', 'ecolyer1v@cmu.edu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('7995:9cce:1a4a:2063:51e8:bd99:1d18:bb01/90', 'Arvie Allmark', '871-618-7945', 'aallmark1w@eventbrite.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('ccac:571e:30af:fafa:7365:fd0e:e6db:b6e4/34', 'Tiebold Phillcock', '521-688-0684', 'tphillcock1x@jiathis.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('15c:2c60:fcd2:58ec:6ab7:b59a:6ca2:7a6d/88', 'Sadie Earngy', '851-963-9255', 'searngy1y@reverbnation.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5f7a:a7ca:53a3:f534:1bc8:6bb9:15b3:c682/115', 'Tony Gregg', '860-461-2020', 'tgregg1z@unc.edu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('4ba0:5f51:6447:5cb5:2f66:ab78:2941:ec22/100', 'Marcus Gowenlock', '807-745-7680', 'mgowenlock20@howstuffworks.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('63e8:1270:c3df:d9d9:c40d:4a27:1fdb:5152/107', 'Adam Orleton', '464-184-2543', 'aorleton21@jigsy.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('271e:4bd:33ff:307b:6710:c8c2:e3ec:ab3e/97', 'Maggie Conan', '495-920-2691', 'mconan22@toplist.cz');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5a71:c4ee:4187:156a:e140:e7bd:fbf8:899f/63', 'Iseabal Whitebrook', '400-825-7174', 'iwhitebrook23@hatena.ne.jp');
+insert into sales.employees (employee_id, full_name, phone, email) values ('7c3b:cf82:2757:c0ef:7269:dd2f:699d:9485/93', 'Hailee Broomer', '458-341-8911', 'hbroomer24@fastcompany.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('aaa9:107e:ff63:b1e8:448e:11df:b97c:6179/60', 'Franciska MacComiskey', '414-354-4070', 'fmaccomiskey25@paginegialle.it');
+insert into sales.employees (employee_id, full_name, phone, email) values ('e544:3bfd:c00a:bece:6f56:a67:85df:52be/123', 'Charley Scarffe', '249-389-0877', 'cscarffe26@businesswire.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('6214:9f93:6423:ba3e:3a7f:ee4e:31bd:3288/42', 'Hillie Swigger', '125-744-5329', 'hswigger27@soundcloud.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('950:eb6:cf7f:776e:ff67:6d7b:24e7:2fff/94', 'Chiquita Lumber', '462-481-0579', 'clumber28@ibm.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('b86c:aa89:46eb:da3f:1553:cc40:e0ed:5655/71', 'Arleen Dennerly', '152-114-7067', 'adennerly29@amazon.de');
+insert into sales.employees (employee_id, full_name, phone, email) values ('c80f:76e5:4cfd:f37:762a:fa15:de08:4083/60', 'Marsha Handasyde', '579-540-5046', 'mhandasyde2a@usnews.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('73ca:e01a:2584:87d8:1a7d:689b:31a:47f2/67', 'Leopold Covell', '844-298-6310', 'lcovell2b@yelp.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('480c:7ade:6d3e:908e:8e9e:873c:ca6f:8d0b/72', 'Stearne Merington', '354-746-1246', 'smerington2c@about.me');
+insert into sales.employees (employee_id, full_name, phone, email) values ('dfae:9047:b02c:da9e:6f00:e438:cac5:791d/80', 'Cherida Aulton', '640-288-4874', 'caulton2d@prlog.org');
+insert into sales.employees (employee_id, full_name, phone, email) values ('3b5f:bc99:eced:6cc7:d522:6b0e:c071:a680/115', 'Chlo Smithson', '746-346-3029', 'csmithson2e@youku.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('23c7:1d53:7bd7:d2db:d758:8d8d:3855:8e2e/116', 'Jermayne Peatt', '966-663-0899', 'jpeatt2f@parallels.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('8226:e706:cca6:3ae4:8c33:8f1e:e01b:3f15/84', 'Berny Coney', '783-236-0113', 'bconey2g@bizjournals.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('cd5b:bf7a:5847:de7a:2b60:5e1c:a6be:8d3b/22', 'Oralla Macklam', '345-832-6793', 'omacklam2h@freewebs.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('4a71:ca4e:7405:19e1:a2d6:1ed:5b7a:5117/34', 'Thor Osichev', '826-264-3360', 'tosichev2i@opensource.org');
+insert into sales.employees (employee_id, full_name, phone, email) values ('d452:98ca:c06d:4ad1:17cf:9ff:c423:a3d/2', 'Leann Fossey', '609-333-9122', 'lfossey2j@photobucket.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('ab22:f5d:2b40:c0f9:533a:58c4:fdba:65d6/42', 'Rurik Elloit', '139-407-4470', 'relloit2k@de.vu');
+insert into sales.employees (employee_id, full_name, phone, email) values ('3274:3c0d:ca3b:c0a5:ccb5:548f:5914:88ca/119', 'Camile Daveridge', '256-593-1474', 'cdaveridge2l@ibm.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('9a6b:35ce:4f4:df45:13f2:aad3:e6f1:58b7/90', 'Louis Sara', '410-316-5324', 'lsara2m@ask.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('57e4:4e5a:4382:8c49:f669:7c35:fc0:9b38/20', 'Fredek Finker', '824-402-4163', 'ffinker2n@t-online.de');
+insert into sales.employees (employee_id, full_name, phone, email) values ('5794:92d5:b228:94a0:1f00:70f1:18dc:bac1/115', 'Darby Sonley', '175-468-0104', 'dsonley2o@themeforest.net');
+insert into sales.employees (employee_id, full_name, phone, email) values ('49bb:762b:415f:6e96:af16:29fa:ac7b:37e/78', 'Hillery Henze', '830-692-3743', 'hhenze2p@nature.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('8001:3e34:35db:8f11:3853:105c:8430:1849/39', 'Marian Butner', '282-612-1896', 'mbutner2q@ezinearticles.com');
+insert into sales.employees (employee_id, full_name, phone, email) values ('64ab:3494:f9ef:e0eb:61a2:6aef:5b8e:ff59/52', 'Loleta Spilisy', '458-378-6402', 'lspilisy2r@ibm.com');
+
+
+insert  into sales.vendors values (1)
+insert  into sales.vendors values (2)
+insert  into sales.vendors values (3)
+insert  into sales.vendors values (4)
+insert  into sales.vendors values (5)
+insert  into sales.vendors values (6)
+insert  into sales.vendors values (7)
+insert  into sales.vendors values (8)
+insert  into sales.vendors values (9)
+insert  into sales.vendors values (10)
+insert  into sales.vendors values (11)
+insert  into sales.vendors values (12)
+insert  into sales.vendors values (13)
+insert  into sales.vendors values (14)
+insert  into sales.vendors values (15)
+insert  into sales.vendors values (16)
+insert  into sales.vendors values (17)
+insert  into sales.vendors values (18)
+insert  into sales.vendors values (19)
+insert  into sales.vendors values (20)
+insert  into sales.vendors values (21)
+insert  into sales.vendors values (22)
+insert  into sales.vendors values (23)
+insert  into sales.vendors values (24)
+insert  into sales.vendors values (25)
+insert  into sales.vendors values (26)
+insert  into sales.vendors values (27)
+insert  into sales.vendors values (28)
+insert  into sales.vendors values (29)
+insert  into sales.vendors values (30)
+insert  into sales.vendors values (31)
+insert  into sales.vendors values (32)
+insert  into sales.vendors values (33)
+insert  into sales.vendors values (34)
+insert  into sales.vendors values (35)
+insert  into sales.vendors values (36)
+insert  into sales.vendors values (37)
+insert  into sales.vendors values (38)
+insert  into sales.vendors values (39)
+insert  into sales.vendors values (40)
+insert  into sales.vendors values (41)
+insert  into sales.vendors values (42)
+insert  into sales.vendors values (43)
+insert  into sales.vendors values (44)
+insert  into sales.vendors values (45)
+insert  into sales.vendors values (46)
+insert  into sales.vendors values (47)
+insert  into sales.vendors values (48)
+insert  into sales.vendors values (49)
+insert  into sales.vendors values (50)
+insert  into sales.vendors values (51)
+insert  into sales.vendors values (52)
+insert  into sales.vendors values (53)
+insert  into sales.vendors values (54)
+insert  into sales.vendors values (55)
+insert  into sales.vendors values (56)
+insert  into sales.vendors values (57)
+insert  into sales.vendors values (58)
+insert  into sales.vendors values (59)
+insert  into sales.vendors values (60)
+insert  into sales.vendors values (61)
+insert  into sales.vendors values (62)
+insert  into sales.vendors values (63)
+insert  into sales.vendors values (64)
+insert  into sales.vendors values (65)
+insert  into sales.vendors values (66)
+insert  into sales.vendors values (67)
+insert  into sales.vendors values (68)
+insert  into sales.vendors values (69)
+insert  into sales.vendors values (70)
+insert  into sales.vendors values (71)
+insert  into sales.vendors values (72)
+
+insert into sales.stores values(1,'New York Walmarket','9-85-76','New City 36','New york');
+insert into sales.stores values(2,'Paris Walmarket','9-23-26','Green  36','Paris')
+insert into sales.stores values(3,'Nur Sultan Walmarket','2-25-76','Bolashak 36','Nur Sultan')
+insert into sales.stores values(4,'Almaty Walmarket','2-33-46','Medeu 36','Almaty')
+insert into sales.stores values(5,'Moscou Walmarket','9-25-26','Pobeda 36','Moscou')
+insert into sales.stores values(6,'Rio Walmarket ','4-56-23','Granada 36','Rio')
+insert into sales.stores values(7,'Berlin Walmarket','2-33-21','Gamburg 36','Berlin')
+
+
+insert into sales.check (vendor_id, product_id, date, price , store_id) values (56, 101, '7/15/2021', 16446, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (6, 29, '7/20/2021', 34484, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (70, 22, '1/12/2021', 49289, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (65, 73, '9/3/2021', 45426, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (69, 82, '7/21/2021', 98826, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (34, 22, '3/11/2021', 93374, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (26, 33, '6/12/2021', 59417, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (6, 15, '2/11/2021', 17631, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (65, 95, '2/5/2021', 14602, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (43, 65, '4/15/2021', 40545, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (40, 108, '6/5/2021', 21652, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (20, 8, '1/15/2021', 39729, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (45, 100, '3/17/2021', 77436, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (2, 81, '10/25/2021', 57961, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (51, 68, '1/26/2021', 4703, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (28, 74, '1/26/2021', 92053, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (54, 88, '7/31/2021', 96380, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (35, 30, '7/29/2021', 18050, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (53, 78, '3/31/2021', 97605, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (20, 95, '9/25/2021', 39482, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (24, 73, '7/7/2021', 86232, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (48, 73, '1/4/2021', 76938, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (27, 57, '8/22/2021', 190, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (47, 92, '4/10/2021', 66893, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (40, 42, '1/17/2021', 42789, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (55, 30, '6/9/2021', 14575, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (41, 99, '7/16/2021', 13831, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (17, 41, '9/26/2021', 31379, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (53, 100, '11/5/2021', 207, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (60, 101, '3/7/2021', 3510, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (4, 106, '2/18/2021', 30842, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (14, 39, '7/21/2021', 42810, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (15, 59, '5/9/2021', 98346, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (32, 101, '7/6/2021', 28097, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (28, 24, '6/4/2021', 71137, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (23, 25, '9/8/2021', 68778, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (12, 61, '8/12/2021', 27353, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (25, 47, '5/17/2021', 44677, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (11, 52, '6/29/2021', 84465, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (18, 103, '10/2/2021', 76143, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (8, 96, '9/27/2021', 14549, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (56, 13, '7/4/2021', 430, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (39, 30, '5/31/2021', 48285, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (15, 7, '10/13/2021', 86042, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (42, 18, '5/7/2021', 64820, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (63, 54, '10/31/2021', 78214, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (58, 114, '4/2/2021', 28983, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (11, 68, '3/18/2021', 521, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (71, 29, '2/25/2021', 57442, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (69, 56, '3/10/2021', 92675, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (24, 25, '1/30/2021', 92306, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (70, 120, '4/4/2021', 9793, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (48, 32, '6/16/2021', 25334, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (59, 59, '9/26/2021', 49219, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (13, 99, '4/2/2021', 55331, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (68, 116, '6/15/2021', 14330, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (59, 103, '2/1/2021', 76767, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (35, 109, '9/2/2021', 52254, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (26, 89, '4/4/2021', 31327, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (35, 110, '9/2/2021', 80928, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (65, 3, '3/6/2021', 22144, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (45, 43, '10/6/2021', 1904, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (54, 100, '8/3/2021', 33294, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (23, 61, '4/8/2021', 50577, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (43, 115, '7/12/2021', 9100, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (11, 95, '11/4/2021', 71751, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (3, 57, '5/6/2021', 16189, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (23, 39, '4/4/2021', 63091, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (26, 6, '6/29/2021', 63568, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (34, 91, '7/7/2021', 76417, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (4, 44, '6/5/2021', 33216, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (49, 5, '4/2/2021', 3258, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (25, 16, '4/17/2021', 61397, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (28, 39, '11/26/2021', 75523, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (32, 50, '5/11/2021', 95529, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (32, 50, '10/12/2021', 99872, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (53, 28, '4/27/2021', 23707, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (19, 20, '11/27/2021', 62049, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (27, 53, '12/4/2021', 96581, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (69, 25, '3/25/2021', 94735, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (68, 48, '10/6/2021', 39588, 1);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (30, 4, '5/23/2021', 94144, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (51, 94, '8/4/2021', 54361, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (9, 75, '1/22/2021', 29566, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (20, 118, '1/28/2021', 78070, 6);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (14, 94, '2/27/2021', 33883, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (35, 11, '4/1/2021', 87229, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (33, 87, '5/17/2021', 2854, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (37, 19, '1/3/2021', 48634, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (25, 78, '7/18/2021', 29604, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (25, 115, '4/14/2021', 30775, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (16, 47, '11/26/2021', 54320, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (12, 82, '6/11/2021', 80695, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (50, 24, '7/14/2021', 95878, 4);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (23, 5, '1/25/2021', 70184, 3);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (55, 117, '10/5/2021', 86017, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (7, 56, '5/7/2021', 32567, 7);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (41, 83, '5/12/2021', 96604, 2);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (43, 88, '5/8/2021', 58008, 5);
+insert into sales.check  (vendor_id, product_id, date, price , store_id) values (26, 93, '7/10/2021', 95134, 4);
+
+
+
+insert into sales.check_store values (2,11,'2021-07-27 00:01:00.000000',300,50)
+insert into sales.check_store values (7,60,'2021-07-27 00:01:02.000000',300,68)
+insert into sales.check_store values (5,80,'2021-07-27 00:03:04.000000',300,50)
+insert into sales.check_store values (7,90,'2021-07-27 00:04:50.000000',300,68)
+insert into sales.check_store values (2,121,'2021-07-27 00:15:00.000000',300,50)
+insert into sales.check_store values (7,100,'2021-07-27 00:16:00.000000',300,68)
+insert into sales.check_store values (2,91,'2021-07-27 00:9:00.000000',300,20)
+insert into sales.check_store values (5,100,'2021-07-27 00:16:00.000000',300,10)
+insert into sales.check_store values (4,80,'2021-07-27 00:14:45.000000',300,40)
+insert into sales.check_store values (3,38,'2021-07-27 00:17:00.000000',300,68)
+insert into sales.check_store values (2,103,'2021-07-27 00:13:40.000000',300,28)
+insert into sales.check_store values (3,90,'2021-07-27 00:21:30.000000',300,28)
+insert into sales.check_store values (4,82,'2021-07-27 00:21:21.000000',300,30)
+insert into sales.check_store values (7,95,'2021-07-27 00:22:35.000000',300,100)
+insert into sales.check_store values (3,11,'2021-07-27 00:20:20.000000',300,34)
+insert into sales.check_store values (5,95,'2021-07-27 00:19:51.000000',300,07)
+
+-----------------
+insert into sales.check_store values (1,50,'2021-07-27 00:21:00.000000',300,12)
+insert into sales.check_store values (2,1,'2021-07-29 00:22:00.000000',300,23)
+insert into sales.check_store values (1,2,'2021-07-27 00:22:00.000000',300,34)
+insert into sales.check_store values (1,3,'2021-07-27 00:23:30.000000',300,34)
+-----------
+insert into sales.check_store values (3,100,'2021-07-28 00:20:10.000000',300,11)
+insert into sales.check_store values (4,5,'2021-07-28 00:11:00.000000',300,12)
+insert into sales.check_store values (5,100,'2021-07-30 00:00:00.000000',300,100)
+insert into sales.check_store values (6,111,'2021-07-31 00:00:00.000000',300,98)
+insert into sales.check_store values (7,23,'2021-07-20 00:00:00.000000',300,38)
+insert into sales.check_store values (7,44,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (3,123,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (7,123,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (7,123,'2021-07-26 00:00:00.000000',300,35)
+insert into sales.check_store values (7,122,'2021-07-26 00:00:00.000000',300,35)
+----
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',3200,35)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',3000,35)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',2100,35)
+insert into sales.check_store values (3,123,'2021-07-26 00:00:00.000000',3000,35)
+insert into sales.check_store values (4,122,'2021-07-26 00:00:00.000000',1000,35)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',3330,35)
+insert into sales.check_store values (7,122,'2021-07-26 00:00:00.000000',3010,19)
+insert into sales.check_store values (7,123,'2021-07-26 00:00:00.000000',3300,16)
+insert into sales.check_store values (5,122,'2021-07-26 00:00:00.000000',4500,11)
+insert into sales.check_store values (6,123,'2021-07-26 00:00:00.000000',510,12)
+insert into sales.check_store values (7,122,'2021-07-26 00:00:00.000000',800,34)
+insert into sales.check_store values (7,123,'2021-07-26 00:00:00.000000',150,42)
+insert into sales.check_store values (7,122,'2021-07-26 00:00:00.000000',600,11)
+insert into sales.check_store values (7,123,'2021-07-26 00:00:00.000000',900,33)
+
+insert into sales.check_store values (7,1,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,2,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,3,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,4,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,5,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,6,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,7,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,8,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,13,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,15,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,16,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,17,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,13,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,15,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,16,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,17,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,13,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,15,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,16,'2021-07-26 00:00:00.000000',400,44)
+insert into sales.check_store values (7,17,'2021-07-26 00:00:00.000000',400,44)
+
+
+insert into sales.check_store values (6,122,'2021-07-26 00:00:00.000000',510,50)
+insert into sales.check_store values (6,1,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (6,93,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (6,100,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (6,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (6,98,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,76)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,73)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,84)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (6,94,'2021-07-26 00:00:00.000000',510,61)
+insert into sales.check_store values (6,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (6,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,31,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,45,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,68,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (6,43,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,44,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,45,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,46,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,9,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,4,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,13,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,14,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,19,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,9,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,4,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,13,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,14,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,19,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,9,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,4,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,13,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,14,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,19,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,20,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,38,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,20,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (6,38,'2021-07-26 00:00:00.000000',510,85)
+--
+insert into sales.check_store values (1,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (1,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (1,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (1,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (1,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (1,100,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (1,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (1,98,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (1,95,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (1,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,95,'2021-07-26 00:00:00.000000',510,76)
+insert into sales.check_store values (1,94,'2021-07-26 00:00:00.000000',510,73)
+insert into sales.check_store values (1,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',510,84)
+insert into sales.check_store values (1,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',510,61)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,31,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,45,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (1,1,'2021-07-26 00:00:00.000000',510,45)
+insert into sales.check_store values (1,2,'2021-07-26 00:00:00.000000',510,23)
+insert into sales.check_store values (1,20,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,21,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,24,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,25,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,23,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,24,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,25,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,32,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,41,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,23,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,24,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,25,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,32,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,41,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,23,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,24,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,25,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,32,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,41,'2021-07-26 00:00:00.000000',510,85)
+
+
+insert into sales.check_store values (2,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (2,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (2,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (2,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (2,91,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (2,100,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (2,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (2,98,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (2,95,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (2,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,95,'2021-07-26 00:00:00.000000',510,76)
+insert into sales.check_store values (2,94,'2021-07-26 00:00:00.000000',510,73)
+insert into sales.check_store values (2,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (2,123,'2021-07-26 00:00:00.000000',510,84)
+insert into sales.check_store values (2,91,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',510,61)
+insert into sales.check_store values (2,123,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (2,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,32,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,45,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,123,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (2,91,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,92,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,93,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,103,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,110,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,112,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,119,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,103,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,110,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,112,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,119,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,19,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,5,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (2,6,'2021-07-26 00:00:00.000000',510,85)
+
+
+
+insert into sales.check_store values (3,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (3,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (3,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (3,100,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (3,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (3,98,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (3,95,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,95,'2021-07-26 00:00:00.000000',510,76)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,73)
+insert into sales.check_store values (3,122,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (3,121,'2021-07-26 00:00:00.000000',510,84)
+insert into sales.check_store values (3,92,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (3,123,'2021-07-26 00:00:00.000000',510,61)
+insert into sales.check_store values (3,122,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (3,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,34,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,42,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,123,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (3,1,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,2,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,30,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,31,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,42,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,50,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,61,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,89,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,90,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,91,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,93,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,90,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,91,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,93,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,90,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,91,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,93,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (3,94,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (4,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (4,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (4,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (4,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (4,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (4,100,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (4,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (4,98,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (4,95,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (4,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,95,'2021-07-26 00:00:00.000000',510,76)
+insert into sales.check_store values (4,94,'2021-07-26 00:00:00.000000',510,73)
+insert into sales.check_store values (4,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',510,84)
+insert into sales.check_store values (4,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',510,61)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,31,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,45,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (4,123,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (4,30,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,29,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,11,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,12,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,13,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,14,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,16,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,17,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,30,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,29,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,11,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,12,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,13,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,14,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,16,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,17,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,23,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (4,21,'2021-07-26 00:00:00.000000',510,60)
+
+insert into sales.check_store values (5,122,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (5,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (5,95,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (5,94,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (5,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (5,100,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (5,92,'2021-07-26 00:00:00.000000',510,94)
+insert into sales.check_store values (5,98,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (5,95,'2021-07-26 00:00:00.000000',510,100)
+insert into sales.check_store values (5,94,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,95,'2021-07-26 00:00:00.000000',510,76)
+insert into sales.check_store values (5,94,'2021-07-26 00:00:00.000000',510,73)
+insert into sales.check_store values (5,95,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,84)
+insert into sales.check_store values (5,92,'2021-07-26 00:00:00.000000',510,60)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,61)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,95)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,81)
+insert into sales.check_store values (5,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,43,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,85)
+
+insert into sales.check_store values (5,1,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,2,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,3,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,4,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,5,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,6,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,7,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,8,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,20,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,21,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,23,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,22,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,11,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,21,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,23,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,22,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,11,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (5,123,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',510,85)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',510,83)
+insert into sales.check_store values (1,122,'2021-07-26 00:00:00.000000',510,83)
+insert into sales.check_store values (1,123,'2021-07-26 00:00:00.000000',300,43)
+insert into sales.check_store values (1,90,'2021-07-26 00:00:00.000000',300,43)
+insert into sales.check_store values (1,91,'2021-07-26 00:00:00.000000',300,43)
+insert into sales.check_store values (1,124,'2021-07-26 00:00:00.000000',250,43)
+insert into sales.check_store values (1,124,'2021-07-26 00:00:00.000000',250,41)
+insert into sales.check_store values (1,124,'2021-07-26 00:00:00.000000',250,39)
+insert into sales.check_store values (1,124,'2021-07-26 00:00:00.000000',250,38)
+insert into sales.check_store values (1,124,'2021-07-26 00:00:00.000000',250,33)
+
+
+
+
+
+insert into production.stocks (product_id, store_id, quantity) values (21, 6, 190);
+insert into production.stocks (product_id, store_id, quantity) values (83, 3, 96);
+insert into production.stocks (product_id, store_id, quantity) values (1, 2, 86);
+insert into production.stocks (product_id, store_id, quantity) values (72, 7, 227);
+insert into production.stocks (product_id, store_id, quantity) values (80, 7, 166);
+insert into production.stocks (product_id, store_id, quantity) values (9, 2, 135);
+insert into production.stocks (product_id, store_id, quantity) values (103, 1, 107);
+insert into production.stocks (product_id, store_id, quantity) values (107, 6, 239);
+insert into production.stocks (product_id, store_id, quantity) values (18, 5, 156);
+insert into production.stocks (product_id, store_id, quantity) values (121, 5, 281);
+insert into production.stocks (product_id, store_id, quantity) values (92, 3, 235);
+insert into production.stocks (product_id, store_id, quantity) values (87, 3, 96);
+insert into production.stocks (product_id, store_id, quantity) values (19, 1, 40);
+insert into production.stocks (product_id, store_id, quantity) values (84, 5, 139);
+insert into production.stocks (product_id, store_id, quantity) values (57, 5, 176);
+insert into production.stocks (product_id, store_id, quantity) values (25, 6, 127);
+insert into production.stocks (product_id, store_id, quantity) values (75, 6, 129);
+insert into production.stocks (product_id, store_id, quantity) values (99, 5, 182);
+insert into production.stocks (product_id, store_id, quantity) values (35, 1, 165);
+insert into production.stocks (product_id, store_id, quantity) values (35, 4, 132);
+insert into production.stocks (product_id, store_id, quantity) values (83, 7, 99);
+insert into production.stocks (product_id, store_id, quantity) values (65, 1, 37);
+insert into production.stocks (product_id, store_id, quantity) values (67, 2, 127);
+insert into production.stocks (product_id, store_id, quantity) values (28, 7, 236);
+insert into production.stocks (product_id, store_id, quantity) values (21, 5, 293);
+insert into production.stocks (product_id, store_id, quantity) values (38, 6, 294);
+insert into production.stocks (product_id, store_id, quantity) values (69, 1, 225);
+insert into production.stocks (product_id, store_id, quantity) values (99, 6, 278);
+insert into production.stocks (product_id, store_id, quantity) values (93, 6, 265);
+insert into production.stocks (product_id, store_id, quantity) values (120, 5, 273);
+insert into production.stocks (product_id, store_id, quantity) values (120, 4, 116);
+insert into production.stocks (product_id, store_id, quantity) values (34, 2, 132);
+insert into production.stocks (product_id, store_id, quantity) values (82, 3, 21);
+insert into production.stocks (product_id, store_id, quantity) values (38, 7, 24);
+insert into production.stocks (product_id, store_id, quantity) values (68, 7, 82);
+insert into production.stocks (product_id, store_id, quantity) values (12, 7, 107);
+insert into production.stocks (product_id, store_id, quantity) values (88, 1, 204);
+insert into production.stocks (product_id, store_id, quantity) values (103, 1, 287);
+insert into production.stocks (product_id, store_id, quantity) values (108, 5, 180);
+insert into production.stocks (product_id, store_id, quantity) values (116, 6, 87);
+insert into production.stocks (product_id, store_id, quantity) values (16, 1, 253);
+insert into production.stocks (product_id, store_id, quantity) values (11, 6, 49);
+insert into production.stocks (product_id, store_id, quantity) values (75, 5, 159);
+insert into production.stocks (product_id, store_id, quantity) values (56, 2, 128);
+insert into production.stocks (product_id, store_id, quantity) values (48, 7, 298);
+insert into production.stocks (product_id, store_id, quantity) values (6, 4, 188);
+insert into production.stocks (product_id, store_id, quantity) values (28, 6, 199);
+insert into production.stocks (product_id, store_id, quantity) values (93, 1, 150);
+insert into production.stocks (product_id, store_id, quantity) values (98, 5, 198);
+insert into production.stocks (product_id, store_id, quantity) values (40, 2, 163);
+insert into production.stocks (product_id, store_id, quantity) values (74, 7, 143);
+insert into production.stocks (product_id, store_id, quantity) values (110, 6, 89);
+insert into production.stocks (product_id, store_id, quantity) values (69, 4, 198);
+insert into production.stocks (product_id, store_id, quantity) values (37, 3, 220);
+insert into production.stocks (product_id, store_id, quantity) values (11, 3, 59);
+insert into production.stocks (product_id, store_id, quantity) values (113, 6, 82);
+insert into production.stocks (product_id, store_id, quantity) values (92, 7, 115);
+insert into production.stocks (product_id, store_id, quantity) values (112, 2, 133);
+insert into production.stocks (product_id, store_id, quantity) values (48, 7, 159);
+insert into production.stocks (product_id, store_id, quantity) values (94, 2, 270);
+insert into production.stocks (product_id, store_id, quantity) values (93, 2, 142);
+insert into production.stocks (product_id, store_id, quantity) values (7, 5, 265);
+insert into production.stocks (product_id, store_id, quantity) values (17, 6, 206);
+insert into production.stocks (product_id, store_id, quantity) values (49, 3, 294);
+insert into production.stocks (product_id, store_id, quantity) values (55, 2, 161);
+insert into production.stocks (product_id, store_id, quantity) values (46, 4, 235);
+insert into production.stocks (product_id, store_id, quantity) values (25, 6, 62);
+insert into production.stocks (product_id, store_id, quantity) values (49, 4, 62);
+insert into production.stocks (product_id, store_id, quantity) values (22, 6, 194);
+insert into production.stocks (product_id, store_id, quantity) values (34, 7, 74);
+insert into production.stocks (product_id, store_id, quantity) values (43, 6, 227);
+insert into production.stocks (product_id, store_id, quantity) values (88, 2, 278);
+insert into production.stocks (product_id, store_id, quantity) values (50, 6, 228);
+insert into production.stocks (product_id, store_id, quantity) values (24, 1, 156);
+insert into production.stocks (product_id, store_id, quantity) values (5, 3, 250);
+insert into production.stocks (product_id, store_id, quantity) values (52, 5, 217);
+insert into production.stocks (product_id, store_id, quantity) values (64, 5, 97);
+insert into production.stocks (product_id, store_id, quantity) values (51, 4, 180);
+insert into production.stocks (product_id, store_id, quantity) values (124, 5, 294);
+insert into production.stocks (product_id, store_id, quantity) values (121, 6, 47);
+insert into production.stocks (product_id, store_id, quantity) values (12, 3, 155);
+insert into production.stocks (product_id, store_id, quantity) values (45, 1, 101);
+insert into production.stocks (product_id, store_id, quantity) values (69, 7, 41);
+insert into production.stocks (product_id, store_id, quantity) values (27, 4, 20);
+insert into production.stocks (product_id, store_id, quantity) values (94, 6, 62);
+insert into production.stocks (product_id, store_id, quantity) values (63, 4, 124);
+insert into production.stocks (product_id, store_id, quantity) values (88, 4, 100);
+insert into production.stocks (product_id, store_id, quantity) values (78, 4, 56);
+insert into production.stocks (product_id, store_id, quantity) values (38, 3, 124);
+insert into production.stocks (product_id, store_id, quantity) values (104, 2, 299);
+insert into production.stocks (product_id, store_id, quantity) values (95, 5, 248);
+insert into production.stocks (product_id, store_id, quantity) values (60, 6, 141);
+insert into production.stocks (product_id, store_id, quantity) values (113, 3, 24);
+insert into production.stocks (product_id, store_id, quantity) values (31, 4, 158);
+insert into production.stocks (product_id, store_id, quantity) values (118, 5, 24);
+insert into production.stocks (product_id, store_id, quantity) values (64, 4, 128);
+insert into production.stocks (product_id, store_id, quantity) values (12, 1, 142);
+insert into production.stocks (product_id, store_id, quantity) values (51, 3, 83);
+insert into production.stocks (product_id, store_id, quantity) values (89, 7, 150);
+insert into production.stocks (product_id, store_id, quantity) values (15, 7, 138);
+
+
+
+--1
+ select * from
+(SELECT production.products.product_id, store_name,product_name,count(sales.check_store.product_id)as quan,
+       row_number() OVER (PARTITION BY store_name ORDER BY count(sales.check_store.product_id)  DESC) as row_number
+FROM production.products,sales.check_store,sales.stores
+where  check_store.product_id=products.product_id and stores.store_id=check_store.store_id
+group by  product_name, stores.store_name,  production.products.product_id) x where x.row_number<21
+--2
+select *from (
+SELECT  production.products.product_id, stores.city,product_name,count(sales.check_store.product_id)as quan,
+      row_number() OVER (PARTITION BY stores.city  ORDER BY count(sales.check_store.product_id)  DESC) as row_number
+FROM production.products,sales.check_store,sales.stores
+where  check_store.product_id=products.product_id and stores.store_id=check_store.store_id
+group by  product_name, stores.city,  production.products.product_id) x where x.row_number<21
+
+---3
+
+SELECT  product_name,count(sales.check_store.product_id) as  quan
+FROM production.products,sales.check_store,sales.stores
+where  check_store.product_id=products.product_id and stores.store_id=check_store.store_id
+group by  product_name, stores.city,  production.products.product_id
+order by count(sales.check_store.product_id) desc
+limit 5
+-------------4
+create view a as
+  select store_name , count(production.products.product_name) as coke, sales.stores.store_id
+    from sales.stores,production.products,sales.check_store
+    where check_store.product_id=products.product_id and stores.store_id=check_store.store_id and product_name='Cola'
+    group by  stores.store_id
+
+create view b as
+  select store_name, count(production.products.product_name) as pepsi, sales.stores.store_id
+    from sales.stores,production.products,sales.check_store
+    where check_store.product_id=products.product_id and stores.store_id=check_store.store_id and product_name='Pepsi'
+    group by  stores.store_id
+
+select a.store_name, a.store_id,a.coke,b.pepsi
+from a,b
+where a.coke>b.pepsi and a.store_id=b.store_id and a.store_name=b.store_name
+order by store_id
+--------5
+create view milk as
+  select customer_id
+    from sales.stores,production.products,sales.check_store
+    where check_store.product_id=products.product_id and stores.store_id=check_store.store_id and product_name='Milk'
+    group by  customer_id
+
+select  product_name,count(sales.check_store.product_id)
+from sales.stores,production.products,milk,sales.check_store,sales.customers
+where milk.customer_id=check_store.customer_id
+group by product_name,customers.customer_id
+order by count(sales.check_store.product_id) desc
+limit 3
